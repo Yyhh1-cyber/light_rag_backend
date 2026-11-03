@@ -1,0 +1,38 @@
+# Python 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 虚拟环境
+venv/
+.venv/
+env/
+
+# 环境变量（密钥！绝对不能上传到 GitHub）
+.env
+
+# PyCharm / VSCode 配置
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 向量数据库本地存储（体积大，不上传）
+chroma_db/
+
+# 用户上传的文件
+uploads/
+
+# 日志文件
+*.log
+logs/
+
+# pytest 测试缓存
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 操作系统垃圾文件
+.DS_Store
+Thumbs.db
