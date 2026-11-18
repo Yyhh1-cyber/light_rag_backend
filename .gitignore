@@ -36,3 +36,5 @@ htmlcov/
 # 操作系统垃圾文件
 .DS_Store
 Thumbs.db
+test_env.py
+text_emp.py
